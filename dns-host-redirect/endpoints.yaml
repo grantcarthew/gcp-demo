@@ -1,0 +1,22 @@
+swagger: "2.0"
+info:
+  title: "Host Redirect"
+  description: "Redirects the users browser based on the host address in the request."
+  version: "1.0.0"
+host: "dns-host-redirect.appspot.com"
+# basePath: "/redirect"
+schemes:
+  - "https"
+paths:
+  "/":
+    get:
+      description: "Returns a redirect to the browser based on the host address."
+      operationId: "hostRedirect"
+      # parameters:
+      responses:
+        200:
+          description: "Success"
+          schema:
+            type: string
+        400:
+          description: "Invalid request for host-redirect"

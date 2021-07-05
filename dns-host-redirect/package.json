@@ -1,0 +1,22 @@
+{
+  "name": "dns-host-redirect",
+  "version": "0.0.1",
+  "description": "Redirects HTTP(S) requests to URLs with paths based on HOST values.",
+  "repository": "",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/datastore": "^1.4.1",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grant Carthew",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "8.x.x"
+  }
+}
